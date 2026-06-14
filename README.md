@@ -26,7 +26,7 @@
 ## Overview
 
 **GROUNDTRUTH** is a self-contained football prediction engine for the 2026
-World Cup. It runs entirely in the browser from a single HTML file — no install,
+World Cup. It runs entirely in the browser from a single HTML file, no install,
 no account, no server, no tracking. Open it and it works.
 
 It is built on the same statistical foundation used by professional and
@@ -36,7 +36,7 @@ the ratings update from real match results so predictions get sharper as the
 tournament unfolds.
 
 > **Honest by design.** No model predicts football with high accuracy on every
-> match — outcomes carry real, irreducible randomness. GROUNDTRUTH targets the
+> match, outcomes carry real, irreducible randomness. GROUNDTRUTH targets the
 > professional tier (roughly 55–65% on win/draw/loss, lower on exact scores) and
 > always shows calibrated probabilities, never fake certainty.
 
@@ -46,9 +46,9 @@ tournament unfolds.
 |-----|--------------|
 | **Predict** | Pick any two teams for win/draw/loss %, expected goals (xG), the most likely scorelines, a scoreline heatmap, over/under and both-teams-to-score, plus a full **match-statistics projection** (possession, shots, shots on target, corners, fouls, cards) and a written analyst read. |
 | **Fixtures** | All **72 group-stage matches** from the official draw. Played games show the real full-time score and feed back into the ratings; upcoming games are predicted, and each group is simulated 5,000 times for qualification odds. |
-| **Simulate** | Monte-Carlo knockout brackets — run 10,000 tournaments to estimate each team's title odds. |
+| **Simulate** | Monte-Carlo knockout brackets, run 10,000 tournaments to estimate each team's title odds. |
 | **Scout** | Turn qualitative team news (injuries, suspensions, rest, form) into a small, bounded Elo adjustment that flows into predictions. |
-| **Ratings** | Official **World Football Elo** updater — enter a result and both teams recalculate automatically, or edit any rating by hand. |
+| **Ratings** | Official **World Football Elo** updater, enter a result and both teams recalculate automatically, or edit any rating by hand. |
 | **Method** | A transparent, honest explanation of the math. |
 
 ## How it works
