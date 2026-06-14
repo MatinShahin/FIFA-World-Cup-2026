@@ -124,6 +124,6 @@ Released under the [MIT License](LICENSE).
 
 ## Author
 
-**Matin Shahin** — design, model, and implementation.
+**Matin Shahin**: design, model, and implementation.
 
 <p align="center"><sub>© 2026 Matin Shahin · Built with curiosity and a Poisson distribution.</sub></p>
