@@ -74,12 +74,6 @@ A deeper write-up lives in **[METHODOLOGY.md](METHODOLOGY.md)**.
 **Just use it:** open `index.html` in any browser (or visit the live link above).
 Everything works offline. That's the whole requirement.
 
-**Host it for others (GitHub Pages):**
-1. Put `index.html` in a public repository.
-2. **Settings → Pages → Deploy from a branch → `main` / `/root`.**
-3. Share the resulting `https://<username>.github.io/<repo>/` link. Visitors just
-   open it — no key, no setup.
-
 ## Keeping it current
 
 The model is strongest when fed real results. To refresh:
